@@ -1,0 +1,48 @@
+@import url(../styles/projects.css);
+@import url(../styles/footer.css);
+@import url(../styles/intro.css);
+@import url(../styles/about.css);
+@import url(../styles/services.css);
+@import url(../styles/gallery.css);
+@import url(../styles/contact.css);
+@import url(../styles/head.css);
+@import url(../styles/reviews.css);
+@import url(../styles/popup.css);
+
+body {
+    font-family: 'Manrope', Courier, monospace;  
+    font-weight: 400;  
+}
+
+html{
+    scroll-behavior: smooth;    
+}
+
+h1, h2, h3, div, p, a {
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.title {
+    font-size: 18px;
+    line-height: 24.59px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1150px 
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding: 0 15px 0 17px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 12px 0 13px;
+    }
+}
