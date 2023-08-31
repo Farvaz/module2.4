@@ -2,11 +2,6 @@
     overflow: hidden;
 }
 
-.container {
-    width: 1150px;
-    margin: 0 auto;
-}
-
 .popup {
     position: fixed;
     top: 0px;
@@ -33,6 +28,7 @@
     height: 708px;
     padding: 0 79px 0 55px;
     max-height: 100%;
+    overflow-y: scroll;
     background-color: #FFFFFF;
     border-radius: 10px;
 }
@@ -58,33 +54,10 @@
     height: 50px;
     top: 32px;
     right: 34px;
-    background-image: url('../recourec/closespopup.png');
+    background-image: url('../resources/closespopup.png');
     background-color: unset;
     background-size: cover;
     border: unset;
-    cursor: pointer;
-}
-
-.services__btn {
-    display: block;
-    width: 47%;
-    height: 153px;
-    margin-top: 50px;
-    margin-left: 50px;
-    font-size: 30px;
-    line-height: 153px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 61px;
-    border: 1px solid #AD1818;
-    color: #FFFFFF;
-    background-color: #AD1818;
-}
-
-.services__btn:hover {
-    cursor: pointer;
-    background-color: #FFFFFF;
-    color: #AD1818;
     cursor: pointer;
 }
 
