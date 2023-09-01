@@ -17,21 +17,44 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <!-- Башка 
-    <header>
+    
+    <header class="header">
         <div class="container">
-            <a class="head__logo" href="#aboutus">
-                <img src="resources/met-logo.jpg" class="metrika" alt="логотип сайта">
-            </a>
-            <nav class="head__nav">
-                <a class="head__link" href="#aboutus">О НАС</a>
-                <a class="head__link" href="#projects">ПРОЕКТЫ</a>
-                <a class="head__link" href="#services">УСЛУГИ</a>
-                <a class="head__link" href="#contacts">КОНТАКТЫ</a>
-            </nav>
+            <div class="head__inner">
+
+                <a class="head__logo" href="#aboutus">
+                    <img src="resources/met-logo.jpg" class="metrika" alt="логотип сайта">
+                </a>
+                <nav class="head__nav">
+                    <a class="head__link" href="#aboutus">О НАС</a>
+                    <a class="head__link" href="#project">ПРОЕКТЫ</a>
+                    <a class="head__link" href="#service">УСЛУГИ</a>
+                    <a class="head__link" href="#contact">КОНТАКТЫ</a>
+                </nav>
+                <button class="js-burger-btn burger-btn"></button>
+            </div>
+
+            <div class="js-burger burger">
+                <div class="js-burger__contetn burger__contetn">
+                    <a href="">
+                        <img class="inburgerlogo" src="resources/met-logo.jpg" alt="">
+                    </a>
+                    <nav class="burger__nav">
+                        <a class="burger__link" href="#aboutus">О НАС</a>
+                        <a class="burger__link" href="#project">ПРОЕКТЫ</a>
+                        <a class="burger__link" href="#service">УСЛУГИ</a>
+                        <a class="burger__link" href="#contact">КОНТАКТЫ</a>
+                    </nav>
+                    <h3 class="burger__content__title">ДЛЯ СВЗЯИ:</h3>
+                    <div class="burger__contact__list">
+                        <a class="burger__phone" href="tel:+7 935  895-45-35">+7 935  895-45-35</a>
+                        <a class="burger__telegram" href="https://t.me/bybashqort" target="_blank">Fara@mail.ru</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    -->
+
     <main>
         <!--Секция ВСТУПЛЕНИЕ-->
         <section class="intro">
@@ -268,9 +291,9 @@
             <div class="footer__inner">              
                 <nav class="footer__nav">
                     <a class="nav__link" href="#aboutus">О НАС</a>
-                    <a class="nav__link" href="#projects">ПРОЕТКЫ</a>
-                    <a class="nav__link" href="#services">УСЛУГИ</a>
-                    <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
+                    <a class="nav__link" href="#project">ПРОЕТКЫ</a>
+                    <a class="nav__link" href="#service">УСЛУГИ</a>
+                    <a class="nav__link" href="#contact">КОНТАКТЫ</a>
                 </nav>
                 <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
             </div>
@@ -279,6 +302,7 @@
 
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
+    <script src="burger.js"></script>
 
 </body>
 
