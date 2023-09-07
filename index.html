@@ -117,7 +117,7 @@
                             <a class="project__link" href="#aboutus">Подробнее →</a>
                         </li>    
                        
-                        <a class="project__btn" href="#project">Смотреть все проекты</a>               
+                        <a class="fullwidthbtn" href="#project">Смотреть все проекты</a>               
                     </ul>                   
             </div>
         </section> 
@@ -156,28 +156,34 @@
                                         
                 </ul>
                 
-                  <button class="js-btn services__btn">Заказать услугу</button>
+                  <button class="js-btn fullwidthbtn fullwidthbtn_services">Заказать услугу</button>
 
                     <div class="js-popup popup">                    
                         <div class="js-popup__content popup__content">
                             <p class="popup__title">Заказать услугу</p>
                             <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
-            
-                            <input
-                                class="input"
+                            <div class="input__contetnt">
+                                <input
+                                class="input order__imput"
                                 type="text"
-                                placeholder="Имя">
+                                name="name"
+                                placeholder="Имя"
+                                />
                             <input
-                                class="input"
-                                type="text"
-                                placeholder="Электроннная почта">
+                                class="input order__imput"
+                                type="email"
+                                name="email"
+                                placeholder="Электроннная почта"
+                                />
                             <input
-                                class="input"
-                                type="text"
-                                placeholder="Номер телефона">
-                        
+                                class="input order__imput"
+                                type="tel"
+                                name="phone"
+                                placeholder="Номер телефона"
+                                />
+                            </div>                       
                             <button class="js-popup__close-btn popup__close-btn"></button>
-                            <button class="popup__x-btn">Отправить</button>
+                            <button class="fullwidthbtn fullwidthbtn__small">Отправить</button>
                         </div>    
                     </div>        
                 

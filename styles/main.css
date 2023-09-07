@@ -8,10 +8,22 @@
 @import url(../styles/head.css);
 @import url(../styles/reviews.css);
 @import url(../styles/popup.css);
+@import url(../styles/buttons.css);
+@import url(../styles/order.css);
+@import url(../styles/imputs.css);
+@import url(../styles/burger.css);
 
 body {
     font-family: 'Manrope', Courier, monospace;  
     font-weight: 400;  
+}
+
+.body_fixed {
+    overflow: hidden;
+}
+
+main {
+    background: #FFF;
 }
 
 html{
@@ -32,6 +44,11 @@ h1, h2, h3, div, p, a {
 .container {
     margin: 0 auto;
     width: 1150px 
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
 }
 
 @media (max-width: 1199px) {

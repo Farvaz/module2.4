@@ -1,0 +1,69 @@
+.fullwidthbtn {
+    display: block;
+    margin-top: 90px;
+    width: 100%;
+    height: 153px;
+    font-size: 30px;
+    line-height: 153px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #AD1818;
+    color: #AD1818;
+}
+
+.fullwidthbtn:hover {
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
+
+.fullwidthbtn_services {
+    margin-top: 106px;
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
+
+.fullwidthbtn_services:hover {
+    background-color: #FFFFFF;
+    color: #AD1818;
+}
+
+.fullwidthbtn__small {
+    height: 67px;
+    font-size: 20px;
+    line-height: 67px;
+    margin-top: 80px;
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
+
+@media (max-width: 1199px) {
+    .fullwidthbtn {
+        margin-top: 102px;
+    } 
+
+    .fullwidthbtn_services {
+        margin-top: 80px;
+    }
+
+    .fullwidthbtn__small {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .fullwidthbtn {
+        height: 100px;
+        margin-top: 60px;
+        font-size: 22px;
+        line-height: 100px;
+        border-radius: 3px;
+    }
+
+    .fullwidthbtn__small {
+        margin-top: 60px;
+        height: 67px;
+        font-size: 20px;
+        line-height: 67px;
+    }
+}

@@ -1,0 +1,122 @@
+.burger-btn {
+    display: none;
+}
+
+.burger {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: #000000d2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+}
+
+.burger_open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.burger__contetn {
+    width: 296px;
+    height: 100%;
+    background-color: #fff;
+    padding: 80px 10px 50px 30px;
+    overflow: auto;
+    transition: transform 0.5 linear;
+    transform: translateX(296px);
+}
+
+.burger_open .burger__contetn {
+    transform: translateX(0);
+}
+
+.inburgerlogo {
+    width: 156px;
+    height: 26px;
+}
+
+.burger__nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.burger__link {
+    display: block;
+    font-size: 25px;
+    line-height: 34.15px;
+    text-decoration: none;
+}
+
+.burger__content__title {
+    margin-top: 90px;
+    font-size: 16px;
+    line-height: 21.86px;
+    opacity: 0.7;
+}
+
+.burger__contact__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    text-decoration: none;
+}
+
+.burger__telegram,
+.burger__phone {
+    font-size: 20px;
+    line-height: 45.62px;
+    text-decoration: none;
+}
+
+.burger__telegram {
+    line-height: 60px;
+}
+
+@media (max-width: 1199px) {
+    .burger-btn {
+        display: block;
+        width: 50px;
+        height: 11px;
+        background-image:url('../resources/burgerbtn.png');
+        border: unset;
+        background-color: unset;
+        background-size: cover;
+        position: absolute;
+        right: 20px;
+        z-index: 100;
+    }
+
+    .burger-btn_open{
+        width: 40px;
+        height: 40px;
+        top: -5px;
+        right: 20px;
+        background-image: url(../resources/closesburger.png);
+    }
+}
+
+@media (max-width: 767px) {
+    .burger-btn {
+        position: absolute;
+        right: 20px;
+        z-index: 100;
+        display: block;
+        width: 38px;
+        height: 9px;
+    }
+
+    .burger-btn_open{
+        width: 34px;
+        height: 34px;
+        top: -5px;
+        right: 20px;
+        background-image: url(../resources/closesburger.png);
+    }
+}
