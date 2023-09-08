@@ -8,6 +8,10 @@
     color: #FFFFFF;
 }
 
+.services__image {
+    object-fit: cover;
+}
+
 .services__description {
     margin-top: 25px;
     font-size: 30px;

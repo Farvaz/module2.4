@@ -22,10 +22,6 @@ body {
     overflow: hidden;
 }
 
-main {
-    background: #FFF;
-}
-
 html{
     scroll-behavior: smooth;    
 }
