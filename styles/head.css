@@ -56,4 +56,9 @@
     .head__nav {
         display: none;
     }
+
+    .metrika {
+        width: 96px;
+        height: 16px;
+    }
 }

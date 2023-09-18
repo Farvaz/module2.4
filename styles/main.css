@@ -58,4 +58,9 @@ button {
     .container {
         padding: 0 12px 0 13px;
     }
+
+    .title {
+        font-size: 14px;
+        line-height: 19.12px;
+    }
 }
