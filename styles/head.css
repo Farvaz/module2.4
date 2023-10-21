@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 64px;
 }
 
 .head__nav a:hover {
@@ -55,10 +55,5 @@
 
     .head__nav {
         display: none;
-    }
-
-    .metrika {
-        width: 96px;
-        height: 16px;
     }
 }

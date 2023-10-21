@@ -11,7 +11,7 @@
 .intro__image {
     width: 1150px;
     height: 500px;
-    margin-top: 30px;
+    margin-top: 33px;
     background-image: url('../resources/image-body.png');
     position: relative;
     background-size: cover;
@@ -20,7 +20,7 @@
 .intro__image__text {
     width: 430px;
     position: absolute;
-    bottom: 40px;
+    bottom: 35px;
     left: 40px;
     font-size: 20px;
     line-height: 29px; 
