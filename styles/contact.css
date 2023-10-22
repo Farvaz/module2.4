@@ -5,7 +5,7 @@
 
 .contacts__list {
     position: relative;
-    margin-top: 76px;
+    margin-top: 81px;
     display: flex;
     gap: 104px;
 }
@@ -13,7 +13,7 @@
 .contacts__mail::before,
 .contacts__phone::before {
     position: absolute;
-    top: -48px;
+    top: -50px;
     content: '';
     display: block;
     width: 24px;
@@ -33,7 +33,7 @@
 
 .contacts__mail,
 .contacts__phone {
-    font-size: 60px;
+    font-size: 62px;
     line-height: 60px;
     border-bottom: 1px solid transparent;
     text-decoration: none;

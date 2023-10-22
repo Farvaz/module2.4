@@ -1,5 +1,6 @@
 .gallery {
     position: relative;
+    bottom: -7px;
 }
 
 .gallery__title-wrapper {
@@ -11,24 +12,26 @@
 
 .gallery__title {
     font-size: 22px;
-    line-height: 30.05px;
+    line-height: 32px;
     z-index: 100;
     color: #FFFFFF;
 }
 
 .gallery__controls-wrapper {
     position: absolute;
+    left: -6px;
     bottom: 165.33px;
     width: 100%;
 }
 
 .gallery__control {
     display: flex;
-    gap: 24.38px;
+    gap: 15.38px;
 }
 
 .galley__text-wrapper {
     position: absolute;
+    left: 2px;
     bottom: 60px;
     width: 100%;
 }
